@@ -6,7 +6,7 @@ type ExperienceProps = {
 };
 export const Experience = ({ experience }: ExperienceProps) => {
   return (
-    <div className="mb-3  border-gray-400 pb-10">
+    <div className="mb-3 border-gray-400 pb-10">
       <ExperienceHeader experience={experience} />
       <p className="mt-6 text-sm italic dark:text-white">
         {experience.summary}
