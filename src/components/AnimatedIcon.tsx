@@ -67,7 +67,7 @@ export const AnimatedIcon = ({
           className="fill-gray-300"
         />
         <animated.circle
-          style={maskedCircleProps}
+          style={maskedCircleProps as never}
           r="9"
           className="text-black"
           fill="currentColor"
@@ -77,7 +77,7 @@ export const AnimatedIcon = ({
       <animated.circle
         cx="12"
         cy="12"
-        style={centerCircleProps}
+        style={centerCircleProps as never}
         fill="currentColor"
         mask="url(#myMask2)"
       />
