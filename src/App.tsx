@@ -35,7 +35,7 @@ function App() {
 
 const LeftContent = () => {
   return (
-    <div className="scrollbar w-1/5 overscroll-auto border-gray-400 pr-6">
+    <div className="scrollbar w-1/5 overflow-auto border-gray-400 pr-6">
       <Basics basics={resume.basics} />
       <Skills skills={resume.skills} />
     </div>
