@@ -123,7 +123,15 @@
     {
       "name": "DevOps",
       "level": "Intermediate",
-      "keywords": ["Docker", "Kubernetes", "AWS", "Terraform", "Jenkins"]
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Terraform",
+        "Jenkins",
+        "GitHub Pages",
+        "GitHub Actions"
+      ]
     }
   ],
   "languages": [
