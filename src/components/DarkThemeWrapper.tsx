@@ -16,7 +16,7 @@ export const DarkThemeWrapper = ({
     <div
       className={`${
         isDark && "dark"
-      } flex h-screen justify-center border-black bg-nice-white p-10 font-mono transition-colors duration-200`}
+      } flex h-screen justify-center border-black font-mono transition-colors duration-200 sm:bg-nice-white sm:p-10`}
     >
       {children}
 

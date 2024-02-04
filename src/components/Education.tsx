@@ -20,7 +20,7 @@ const EducationRow = ({ education }: { education: EducationType }) => (
   <div className="mb-12">
     <EducationHeader education={education} />
     <p className="mt-2 text-sm italic dark:text-white">{education.area}</p>
-    <ul className="mt-6 list-inside list-disc px-8">
+    <ul className="mt-6 list-inside list-disc sm:px-8">
       {education.courses.map((course, index) => (
         <Course key={index}>{course}</Course>
       ))}

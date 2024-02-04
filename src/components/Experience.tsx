@@ -12,7 +12,7 @@ export const Experience = ({ experience }: ExperienceProps) => {
         {experience.summary}
       </p>
 
-      <ul className="mt-8 list-inside list-disc px-8">
+      <ul className="mt-8 list-inside list-disc sm:px-8">
         {experience.highlights.map((highlight, index) => (
           <Task key={index}>{highlight}</Task>
         ))}

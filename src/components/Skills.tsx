@@ -5,7 +5,7 @@ type SkillsProps = {
 };
 
 export const Skills = ({ skills }: SkillsProps) => (
-  <div className="text-end">
+  <div className="sm:text-end">
     {skills.map((skill, index) => (
       <Skill key={index} skill={skill} />
     ))}

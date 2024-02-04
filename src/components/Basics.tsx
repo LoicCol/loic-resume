@@ -5,7 +5,7 @@ type BasicsProps = {
 };
 
 export const Basics = ({ basics }: BasicsProps) => (
-  <div className="mb-10 flex flex-col items-end">
+  <div className="mb-10 flex flex-col sm:items-end">
     <Photo />
     <h1 className="z-20 mb-6 text-3xl font-bold text-blue-500">Loïc Colin</h1>
     <p className="text-sm dark:text-white">{basics.label}</p>

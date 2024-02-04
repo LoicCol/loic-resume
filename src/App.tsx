@@ -24,7 +24,7 @@ function App() {
 
   return (
     <DarkThemeWrapper isDark={isDark}>
-      <div className="z-10 flex w-full max-w-screen-xl">
+      <div className="sm:over z-10 flex w-full flex-col overflow-auto bg-nice-white p-10 sm:max-w-screen-xl sm:flex-row sm:p-0">
         <LeftContent />
         <CenterContent />
         <Menu isDark={isDark} toggleDark={toggleDark} />
@@ -35,7 +35,7 @@ function App() {
 
 const LeftContent = () => {
   return (
-    <div className="scrollbar w-1/5 overflow-auto border-gray-400 pr-6">
+    <div className="scrollbar w-full border-gray-400 sm:w-1/5 sm:overflow-auto sm:pr-6">
       <Basics basics={resume.basics} />
       <Skills skills={resume.skills} />
     </div>
@@ -44,7 +44,7 @@ const LeftContent = () => {
 
 const CenterContent = () => {
   return (
-    <div className="scrollbar w-3/5 overflow-auto border-l border-gray-400 px-6">
+    <div className="scrollbar mt-10 w-full border-gray-400 sm:mt-0 sm:w-3/5 sm:overflow-auto sm:border-l sm:px-6">
       <div id="basics">
         <Experiences experiences={resume.work} />
       </div>
