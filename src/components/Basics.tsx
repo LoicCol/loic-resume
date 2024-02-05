@@ -22,7 +22,7 @@ export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
     <a
       href={basics.profiles[0].url}
       className="text-sm text-blue-500 underline"
-      target=""
+      target="_blank"
     >
       {basics.profiles[0].network}
     </a>
