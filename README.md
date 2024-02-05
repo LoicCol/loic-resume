@@ -1,5 +1,7 @@
 # My Resume
 
+[Live version](https://loiccol.github.io/loic-resume/)
+
 This project is a web-based version of my resume, built with Vite, React, TypeScript and Tailwind CSS. It showcases my skills, experience, and projects in a modern and interactive format.
 
 ## Features
