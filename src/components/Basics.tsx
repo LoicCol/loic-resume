@@ -16,10 +16,16 @@ export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
         <AnimatedIcon isDark={isDark} toggleDark={toggleDark} />
       </div>
     </div>
-
     <p className="text-sm dark:text-white">{basics.label}</p>
     <p className="text-sm dark:text-white">{basics.email}</p>
     <p className="text-sm dark:text-white">{basics.location.city}</p>
+    <a
+      href={basics.profiles[0].url}
+      className="text-sm text-blue-500 underline"
+      target="_blank"
+    >
+      {basics.profiles[0].network}
+    </a>
   </div>
 );
 

@@ -26,7 +26,7 @@ const ExperienceHeader = ({ experience }: { experience: ExperienceType }) => {
 
   return (
     <div className="flex items-center justify-between">
-      <p className="text-xl text-blue-500 dark:text-white">
+      <p className="text-xl text-blue-500 ">
         {experience.position},{" "}
         <a
           href={experience.url}
