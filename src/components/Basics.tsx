@@ -22,7 +22,7 @@ export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
     <a
       href={basics.profiles[0].url}
       className="text-sm text-blue-500 underline"
-      target="_blank"
+      target=""
     >
       {basics.profiles[0].network}
     </a>
@@ -31,8 +31,9 @@ export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
 
 const Photo = () => (
   <img
-    src="https://avatars.githubusercontent.com/u/15937574?v=4"
+    src="https://avatars.githubusercontent.com/u/32926059?v=4"
     alt="profile"
     className="mb-6 w-11/12 rounded-full"
+    loading="lazy"
   />
 );
