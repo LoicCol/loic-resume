@@ -33,7 +33,7 @@ const EducationHeader = ({ education }: { education: EducationType }) => {
 
   return (
     <div className="flex items-center justify-between">
-      <p className="text-xl text-blue-500 dark:text-white">
+      <p className="text-xl text-blue-500 ">
         {education.studyType},{" "}
         <a
           href={education.url}
