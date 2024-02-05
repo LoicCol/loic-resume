@@ -8,6 +8,7 @@ import { Basics } from "./components/Basics";
 import { Education } from "./components/Education";
 import { DarkThemeWrapper } from "./components/DarkThemeWrapper";
 import { Menu } from "./components/Menu";
+import { Interests } from "./components/Interests";
 
 function App() {
   const [isDark, setIsDark] = useState<boolean>(() => {
@@ -33,12 +34,15 @@ function App() {
           />
           <Skills skills={resume.skills} />
         </div>
-        <div className="scrollbar mt-10 w-full border-gray-400 sm:mt-0 sm:w-3/5 sm:overflow-auto sm:border-l sm:px-6">
-          <div id="basics">
+        <div className="scrollbar mt-10 w-full border-gray-400 pb-10 sm:mt-0 sm:w-3/5 sm:overflow-auto sm:border-l sm:px-6">
+          <div id="basics" className="mb-16">
             <Experiences experiences={resume.work} />
           </div>
-          <div id="educations">
+          <div id="educations" className="mb-16">
             <Education educations={resume.education} />
+          </div>
+          <div id="interests" className="mb-16">
+            <Interests interests={resume.interests} />
           </div>
         </div>
         <Menu isDark={isDark} toggleDark={toggleDark} />

@@ -20,6 +20,12 @@ export const Menu = ({
     >
       Education
     </a>
+    <a
+      href="#interests"
+      className="mb-4 text-base italic text-gray-700 underline dark:text-gray-300"
+    >
+      Interests
+    </a>
     <hr className="mb-4 w-1/5 border-t border-gray-400" />
     <div className="hidden sm:block">
       <AnimatedIcon isDark={isDark} toggleDark={toggleDark} />
