@@ -10,13 +10,13 @@ type BasicsProps = {
 export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
   <div className="mb-10 flex flex-col sm:items-end">
     <Photo />
-    <div className="mb-6 flex items-center justify-between sm:hidden">
+    <div className="mb-6 flex items-center justify-between">
       <h1 className="z-20  text-3xl font-bold text-blue-500">Loïc Colin</h1>
-      <AnimatedIcon isDark={isDark} toggleDark={toggleDark} />
+      <div className="sm:w-0 sm:overflow-hidden">
+        <AnimatedIcon isDark={isDark} toggleDark={toggleDark} />
+      </div>
     </div>
-    <h1 className="z-20 hidden text-3xl font-bold text-blue-500 sm:block">
-      Loïc Colin
-    </h1>
+
     <p className="text-sm dark:text-white">{basics.label}</p>
     <p className="text-sm dark:text-white">{basics.email}</p>
     <p className="text-sm dark:text-white">{basics.location.city}</p>
