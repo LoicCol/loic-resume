@@ -11,7 +11,7 @@ export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
   <div className="mb-10 flex flex-col sm:items-end">
     <Photo />
     <div className="mb-6 flex items-center justify-between">
-      <h1 className="dark:blue-500  z-20 text-3xl font-bold text-blue-700">
+      <h1 className="z-20  text-3xl font-bold text-blue-700 dark:text-blue-400">
         Loïc Colin
       </h1>
       <div className="sm:w-0 sm:overflow-hidden">
@@ -23,7 +23,7 @@ export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
     <p className="text-sm dark:text-white">{basics.location.city}</p>
     <a
       href={basics.profiles[0].url}
-      className="dark:blue-500 text-sm text-blue-700 underline"
+      className="text-sm text-blue-700 underline dark:text-blue-400"
       target="_blank"
     >
       {basics.profiles[0].network}
