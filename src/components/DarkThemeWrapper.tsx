@@ -16,12 +16,12 @@ export const DarkThemeWrapper = ({
     <div
       className={`${
         isDark && "dark"
-      } flex h-screen justify-center overflow-auto border-black bg-stone-200 p-10 font-mono transition-colors duration-200`}
+      } flex h-screen justify-center overflow-auto border-black bg-gray-100 p-10  transition-colors duration-200`}
     >
       {children}
       <animated.div
         style={props}
-        className="pointer-events-none fixed left-0 top-0 h-screen w-screen bg-white opacity-100 mix-blend-difference"
+        className="pointer-events-none fixed left-0 top-0 h-screen w-screen bg-stone-300 opacity-100 mix-blend-difference"
       ></animated.div>
     </div>
   );

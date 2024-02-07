@@ -25,7 +25,7 @@ function App() {
 
   return (
     <DarkThemeWrapper isDark={isDark}>
-      <div className="sm:over z-10 flex w-full flex-col sm:max-w-screen-xl sm:flex-row sm:p-0">
+      <div className="z-10 flex w-full flex-col sm:max-w-screen-xl sm:flex-row sm:p-0">
         <div className="scrollbar w-full border-gray-400 sm:w-1/5 sm:overflow-auto sm:pr-6">
           <Basics
             basics={resume.basics}
@@ -35,13 +35,13 @@ function App() {
           <Skills skills={resume.skills} />
         </div>
         <div className="scrollbar mt-10 w-full border-gray-400 pb-10 sm:mt-0 sm:w-3/5 sm:overflow-auto sm:border-l sm:px-6">
-          <div id="basics" className="mb-16">
+          <div id="basics" className="mb-14">
             <Experiences experiences={resume.work} />
           </div>
-          <div id="educations" className="mb-16">
+          <div id="educations" className="mb-20">
             <Education educations={resume.education} />
           </div>
-          <div id="interests" className="mb-16">
+          <div id="interests" className="mb-10">
             <Interests interests={resume.interests} />
           </div>
         </div>

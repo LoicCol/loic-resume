@@ -3,9 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontSize: {
-      sm: "0.7rem",
-      base: "0.95rem",
-      xl: "1.2rem",
+      sm: "0.80rem",
+      base: "1rem",
+      xl: "1.25rem",
       "2xl": "1.5rem",
       "3xl": "1.875rem",
       "4xl": "2.25rem",

@@ -10,19 +10,19 @@ export const Menu = ({
   <div className="hidden flex-col justify-center border-gray-400 pl-6 sm:flex sm:w-1/5">
     <a
       href="#basics"
-      className="mb-4 text-base italic text-gray-700 underline dark:text-gray-300"
+      className="test:sm mb-4 text-base italic text-gray-700 underline dark:text-gray-300"
     >
       Experiences
     </a>
     <a
       href="#educations"
-      className="mb-4 text-base italic text-gray-700 underline dark:text-gray-300"
+      className="test:sm mb-4 text-base italic text-gray-700 underline dark:text-gray-300"
     >
       Education
     </a>
     <a
       href="#interests"
-      className="mb-4 text-base italic text-gray-700 underline dark:text-gray-300"
+      className="test:sm mb-4 text-base italic text-gray-700 underline dark:text-gray-300"
     >
       Interests
     </a>
