@@ -13,19 +13,19 @@ export const Menu = ({
     <a href="#experiences" className="mb-8 w-min">
       <Briefcase
         size={20}
-        className="test-sm text-gray-700 duration-75 dark:text-gray-300"
+        className="test-sm text-gray-900 duration-75 dark:text-gray-300"
       />
     </a>
     <a href="#educations" className="mb-8 w-min">
       <Book
         size={20}
-        className="test-sm text-gray-700 duration-75 dark:text-gray-300"
+        className="test-sm text-gray-900 duration-75 dark:text-gray-300"
       />
     </a>
     <a href="#interests" className="mb-8 w-min">
       <Heart
         size={20}
-        className="test-sm text-gray-700 duration-75 dark:text-gray-300"
+        className="test-sm text-gray-900 duration-75 dark:text-gray-300"
       />
     </a>
     <hr className="mb-6 w-5 border-t border-gray-400" />

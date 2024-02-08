@@ -30,7 +30,7 @@ const ExperienceHeader = ({ experience }: { experience: ExperienceType }) => {
   const { startDate, endDate } = experience;
 
   return (
-    <div className="flex items-center justify-between pb-6">
+    <div className="items-center justify-between pb-6 sm:flex">
       <p className="text-xl text-blue-700 dark:text-blue-400 ">
         {experience.position},{" "}
         <a

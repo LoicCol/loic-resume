@@ -39,7 +39,7 @@ const CollapsibleList = ({
         onClick={toggleCollapse}
       >
         <animated.button className="mr-6" style={{ transform }}>
-          <ChevronRight className=" text-blue-700" />
+          <ChevronRight className="text-blue-700 dark:text-blue-400" />
         </animated.button>
         {title}
       </div>

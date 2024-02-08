@@ -51,7 +51,7 @@ export const AnimatedIcon = ({
       strokeLinecap="round"
       strokeLinejoin="round"
       stroke="currentColor"
-      className="text-gray-700 duration-75 dark:text-gray-300"
+      className="text-gray-900 duration-75 dark:text-gray-300"
       onClick={toggleDark}
       style={{
         cursor: "pointer",

@@ -24,10 +24,13 @@ export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
     <p className="text-sm dark:text-white">{basics.location.city}</p>
     <a
       href={basics.profiles[0].url}
-      className="pt-2 text-sm text-blue-700 underline dark:text-blue-400"
+      className="w-min pt-2 text-sm"
       target="_blank"
     >
-      <GitHub size={20} />
+      <GitHub
+        size={20}
+        className="text-blue-700 duration-75 dark:text-blue-400"
+      />
     </a>
   </div>
 );
@@ -36,7 +39,7 @@ const Photo = () => (
   <img
     src="https://avatars.githubusercontent.com/u/32926059?v=4"
     alt="profile"
-    className="mb-10 w-1/2 rounded-full"
+    className="mb-20 w-1/2 self-center rounded-full sm:mb-10 sm:self-end"
     loading="lazy"
   />
 );
