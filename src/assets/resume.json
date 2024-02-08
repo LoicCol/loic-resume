@@ -27,11 +27,12 @@
       "startDate": "2021-11-01",
       "summary": " Zenjob, based in Berlin, Germany, matches over 20,000 talents with 12,000 part-time jobs from over 1,000 companies every month. The platform empowers the workforce of tomorrow, enabling part-time jobbers to decide when, where, and how to work with just a few clicks.",
       "highlights": [
-        "I played a pivotal role at Zenjob by leading the development of a customer-facing B2B platform for effi cientorder management. This involved extensive work on front-end development using React, Typescript andother technologies.",
-        "I actively participated in the development of the design system, contributing to a consistent and effi cientuser interface. Additionally, I was responsible for maintaining the mono-repository, ensuring smooth andcoordinated development efforts.",
-        "I made a significant impact by integrating end-to-end tests using Playwright, which greatly improved thereliability and stability of our front-end features. This automation effort was a key part of our front-enddevelopment process.",
-        "I was actively involved in monitoring system alerts to preemptively address potential incidents. Thisincluded resolving issues and conducting necessary post-mortems, using tools like Sentry, Grafana, andOpsGenie.",
-        "I consistently demonstrated an eagerness to learn and grow. I developed a habit of writing clear andtestable code, gained experience with Node.js and SSR frameworks such as Next.js, and cultivated a passionfor accessible web applications."
+        "Directed a team of 4 engineers in the implementation of a fully automated order management system, which resulted in a significant rise in automation from 75% to 98%, substantially minimizing the requirement for human intervention.",
+        "Overhauled the front-end Authentication system of the B2B application, transitioning from Redux to React Context, resulting in increased robustness.",
+        "Executed the development of a bulk order submission system, enhancing the process efficiency and significantly simplifying its usage.",
+        "Devised a Talent Rating process, accommodating multiple complexities, including.",
+        "Spearheaded the initialization, implementation, and migration of end-to-end tests from TestCafe & Cypress to Playwright, enhancing both stability and coverage.",
+        "Engineered an internal panel to streamline the daily tasks of account managers, replacing a VBA tool with a user-friendly React application."
       ]
     },
     {
@@ -42,9 +43,11 @@
       "endDate": "2021-09-01",
       "summary": "Involved in eLamp’s early stages as a student, we started from the founders’ couch. Despite challenges, we built a successful product, leading to eLamp’s acquisition by a larger group in 2023.",
       "highlights": [
-        "As the pioneering employee at eLamp, a startup, I had the unique opportunity to shape the company’s technological direction from its inception. Specializing in front-end development, I collaborated closely with the CTO to build a robust tech stack from scratch, mastering technologies such as TypeScript, React, and GraphQL.",
-        "Over five years, I developed complex user interfaces, including intricate graphs and other data visualization tools. An example of this is the development of a feature that significantly enhanced data interaction and understanding for our customers. In addition, I developed several features that made our product very user-friendly and enjoyable to use. I cultivated an appreciation for aesthetically pleasing designs and took great pleasure in crafting animations that were both functional and visually engaging.",
-        "I ensured the quality and reliability of our software through rigorous testing methodologies. This included unit testing, integration testing, and end-to-end testing using technologies like Cypress and React Testing Library. My commitment to quality assurance helped maintain high standards for our products and instilled confidence in our customers."
+        "Shaped a startup’s tech direction from inception, building a robust tech stack with TypeScript, React, and GraphQL.",
+        "Developed complex user interfaces and data visualization tools with React and D3JS.",
+        "Created features for a user-friendly product, focusing on aesthetically pleasing designs and functional animations.",
+        "Ensured software quality through rigorous testing methodologies, maintaining high standards for our products and reducing bugs by 30%.",
+        "Improved site load time by 15% by implementing advanced caching techniques."
       ]
     }
   ],
@@ -101,13 +104,7 @@
         "Vite",
         "Remix",
         "GraphQL",
-        "Tailwind CSS"
-      ]
-    },
-    {
-      "name": "Front-end Testing",
-      "level": "Master",
-      "keywords": [
+        "Tailwind CSS",
         "React Testing Library",
         "Cypress",
         "Playwright",

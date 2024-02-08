@@ -44,5 +44,5 @@ const ExperienceHeader = ({ experience }: { experience: ExperienceType }) => {
 };
 
 const Task = ({ children }: { children: React.ReactNode }) => (
-  <li className="mt-4 text-sm dark:text-white">{children}</li>
+  <li className="mt-3 text-sm dark:text-white">{children}</li>
 );
