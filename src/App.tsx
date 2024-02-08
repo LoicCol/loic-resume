@@ -26,7 +26,7 @@ function App() {
   return (
     <DarkThemeWrapper isDark={isDark}>
       <div className="z-10 flex w-full flex-col sm:max-w-screen-xl sm:flex-row sm:p-0">
-        <div className="scrollbar w-full border-gray-400 sm:w-1/5 sm:overflow-auto sm:pr-10">
+        <div className="scrollbar w-full border-gray-400 sm:w-1/5 sm:overflow-auto sm:pr-8">
           <Basics
             basics={resume.basics}
             isDark={isDark}
