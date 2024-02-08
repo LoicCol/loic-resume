@@ -9,7 +9,7 @@ export const Menu = ({
   isDark: boolean;
   toggleDark: () => void;
 }) => (
-  <div className="hidden flex-col justify-center border-gray-400 pl-6 sm:flex sm:w-1/5">
+  <div className="hidden flex-col justify-center border-gray-400 pl-10 sm:flex sm:w-1/5">
     <a href="#experiences" className="mb-8 w-min">
       <Briefcase
         size={20}
