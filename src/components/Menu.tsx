@@ -1,6 +1,6 @@
 import { AnimatedIcon } from "./AnimatedIcon";
 
-import { Book, Briefcase, Feather, Heart } from "react-feather";
+import { Book, Briefcase, Heart } from "react-feather";
 
 export const Menu = ({
   isDark,
