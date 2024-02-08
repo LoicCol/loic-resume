@@ -19,9 +19,6 @@ export default {
       colors: {
         "nice-white": "#e4e4e0",
       },
-      // fontFamily: {
-      //   sans: ['"Proxima Nova"', ...defaultTheme.fontFamily.sans],
-      // },
     },
   },
   plugins: [],

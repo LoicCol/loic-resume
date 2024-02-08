@@ -35,7 +35,7 @@ function App() {
           <Skills skills={resume.skills} />
         </div>
         <div className="scrollbar mt-10 w-full border-gray-400 pb-10 sm:mt-0 sm:w-3/5 sm:overflow-auto sm:border-l sm:px-6">
-          <div id="basics" className="mb-14">
+          <div id="experiences" className="mb-14">
             <Experiences experiences={resume.work} />
           </div>
           <div id="educations" className="mb-20">

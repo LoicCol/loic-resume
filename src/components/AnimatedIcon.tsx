@@ -43,15 +43,15 @@ export const AnimatedIcon = ({
   return (
     <animated.svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
       fill="none"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       stroke="currentColor"
-      className="text-gray-700 dark:text-gray-300"
+      className="text-gray-700 duration-75 dark:text-gray-300"
       onClick={toggleDark}
       style={{
         cursor: "pointer",
