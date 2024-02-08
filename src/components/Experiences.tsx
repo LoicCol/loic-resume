@@ -11,7 +11,7 @@ export const Experiences = ({
       Experiences
     </h2>
     {experiences.map((experience, index) => (
-      <Experience key={index} experience={experience} />
+      <Experience key={index} isFirst={index === 0} experience={experience} />
     ))}
   </>
 );

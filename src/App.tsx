@@ -34,13 +34,15 @@ function App() {
           />
           <Skills skills={resume.skills} />
         </div>
-        <div className="scrollbar mt-10 w-full border-gray-400 pb-10 sm:mt-0 sm:w-3/5 sm:overflow-auto sm:border-l sm:px-6">
-          <div id="experiences" className="mb-14">
+        <div className="scrollbar mt-10 flex w-full flex-col border-gray-400 pb-10 sm:mt-0 sm:w-3/5 sm:overflow-auto sm:border-l sm:px-10">
+          <div id="experiences" className="mb-10">
             <Experiences experiences={resume.work} />
           </div>
-          <div id="educations" className="mb-20">
+          <hr className="mb-20 w-1/2 self-center border-t border-gray-400" />
+          <div id="educations" className="mb-10">
             <Education educations={resume.education} />
           </div>
+          <hr className="mb-20 w-1/2 self-center border-t border-gray-400" />
           <div id="interests" className="mb-10">
             <Interests interests={resume.interests} />
           </div>

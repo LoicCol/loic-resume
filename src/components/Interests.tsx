@@ -5,7 +5,7 @@ type InterestsProps = {
 };
 
 export const Interests = ({ interests }: InterestsProps) => (
-  <div className="mt-10">
+  <div>
     <h2 className="mb-8 text-2xl font-bold text-gray-700 dark:text-white">
       Interests
     </h2>

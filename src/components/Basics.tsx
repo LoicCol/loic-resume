@@ -1,3 +1,4 @@
+import { GitHub } from "react-feather";
 import { BasicsType } from "../types";
 import { AnimatedIcon } from "./AnimatedIcon";
 
@@ -23,10 +24,10 @@ export const Basics = ({ basics, isDark, toggleDark }: BasicsProps) => (
     <p className="text-sm dark:text-white">{basics.location.city}</p>
     <a
       href={basics.profiles[0].url}
-      className="text-sm text-blue-700 underline dark:text-blue-400"
+      className="pt-2 text-sm text-blue-700 underline dark:text-blue-400"
       target="_blank"
     >
-      {basics.profiles[0].network}
+      <GitHub size={20} />
     </a>
   </div>
 );
@@ -35,7 +36,7 @@ const Photo = () => (
   <img
     src="https://avatars.githubusercontent.com/u/32926059?v=4"
     alt="profile"
-    className="mb-6 w-9/12 rounded-full"
+    className="mb-10 w-1/2 rounded-full"
     loading="lazy"
   />
 );
