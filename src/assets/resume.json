@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Loïc Colin",
-    "label": "Senior Front-end Developer",
+    "label": "Senior Front-End Engineer / Full Stack Engineer",
     "image": "",
     "email": "loic-col@hotmail.fr",
     "url": "",
-    "summary": "A summary of John Doe…",
+    "summary": "",
     "location": {
       "city": "Berlin",
       "countryCode": "DE",
@@ -22,17 +22,17 @@
   "work": [
     {
       "name": "Zenjob",
-      "position": "Senior Front-End Engineer",
+      "position": "Senior Front-End Engineer / Full Stack Engineer",
       "url": "https://www.zenjob.com/en/",
       "startDate": "2021-11-01",
       "summary": " Zenjob, based in Berlin, Germany, matches over 20,000 talents with 12,000 part-time jobs from over 1,000 companies every month. The platform empowers the workforce of tomorrow, enabling part-time jobbers to decide when, where, and how to work with just a few clicks.",
       "highlights": [
-        "Directed a team of 4 engineers in the implementation of a fully automated order management system, which resulted in a significant rise in automation from 75% to 98%, substantially minimizing the requirement for human intervention.",
-        "Overhauled the front-end Authentication system of the B2B application, transitioning from Redux to React Context, resulting in increased robustness.",
-        "Executed the development of a bulk order submission system, enhancing the process efficiency and significantly simplifying its usage.",
-        "Devised a Talent Rating process, accommodating multiple complexities, including.",
-        "Spearheaded the initialization, implementation, and migration of end-to-end tests from TestCafe & Cypress to Playwright, enhancing both stability and coverage.",
-        "Engineered an internal panel to streamline the daily tasks of account managers, replacing a VBA tool with a user-friendly React application."
+        "Led an initiaitve with 4 engineers to increase automation from 75% to 98% by developing and implementing a fully automated order management system. Resulted in streamlined processing, reduced manual intervention, and resource optimization.",
+        "Refactored the B2B application's front-end authentication system by migrating from Redux to React Context for improved robustness and maintainability.",
+        "Developed a user-friendly bulk order process that accelerated processing, benefiting customers with large orders and enhancing efficiency, 70% of orders are now created through this UI.",
+        "Designed and implemented a Talent Rating system to manage complex evaluation aspects effectively, ensuring accurate assessments.",
+        "Migrated end-to-end tests from TestCafe & Cypress to Playwright, reducing flaky failures by 30% and speeding up the Jenkins pipeline by 25%. Enhanced testing reliability and efficiency.",
+        "Built an internal panel application using React, replacing a VBA tool and equipping account managers with an intuitive interface for enhanced productivity."
       ]
     },
     {
