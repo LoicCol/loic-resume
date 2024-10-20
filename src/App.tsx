@@ -25,7 +25,13 @@ function App() {
 
   return (
     <DarkThemeWrapper isDark={isDark}>
-      <div className="z-10 flex w-full flex-col sm:max-w-screen-xl sm:flex-row sm:p-0">
+      <div className="fixed left-0 top-0 z-50 w-full bg-red-500 py-2 text-center text-white">
+        A new version is available at{" "}
+        <a href="https://loiccolin.fr" className="underline">
+          loiccolin.fr
+        </a>
+      </div>
+      <div className="z-10 mt-10 flex w-full flex-col sm:max-w-screen-xl sm:flex-row sm:p-0">
         <div className="scrollbar w-full border-gray-400 sm:w-1/5 sm:overflow-auto sm:pr-8">
           <Basics
             basics={resume.basics}
